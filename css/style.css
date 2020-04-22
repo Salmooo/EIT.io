@@ -1,0 +1,54 @@
+/* Required for full background image */
+html,
+body,
+header,
+.view {
+  width:100%;
+  height: 100%;
+}
+
+@media (max-width: 740px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 100vh;
+  }
+}
+
+.top-nav-collapse {
+  background-color: #070707 !important;
+}
+
+
+.navbar:not(.top-nav-collapse) {
+  background: transparent !important;
+}
+
+@media (max-width: 991px) {
+  .navbar:not(.top-nav-collapse) {
+    background: #070707 !important;
+  }
+}
+
+.rgba-gradient {
+    /*CSS的渐变(gradient)展示了在两种颜色间的平滑过渡, 有两种方式:
+    线性渐变(Linear): 上下, 左右, 对角线渐变
+    中心渐变(Radial): 以中心径向渐变*/
+  background: -moz-linear-gradient(45deg, rgba(8, 8, 8, 0.6), rgba(0, 0, 3, 0.69) 100%);
+  background: -webkit-linear-gradient(45deg, rgba(8, 8, 8, 0.6), rgba(0, 0, 3, 0.69) 100%);
+  background: linear-gradient(to 45deg, rgba(8, 8, 8, 0.6), rgba(7, 7, 8, 0.69) 100%);
+} 
+
+/*.rgba-gradient {*/
+    /* fallback for old browsers */
+/*    background: rgba(35, 7, 77, 0.6);*/
+    /* Chrome 10-25, Safari 5.1-6 */
+/*    background: -webkit-linear-gradient(to right, rgba(204, 83, 51, 0.6), rgba(35, 7, 77, 0.6));*/
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+/*    background: linear-gradient(to right, rgba(204, 83, 51, 0.6), rgba(35, 7, 77, 0.6));*/
+/*}*/
+
+
+
+
