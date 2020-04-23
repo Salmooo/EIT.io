@@ -1,2 +1,0 @@
-# EIT.io
-EIT
